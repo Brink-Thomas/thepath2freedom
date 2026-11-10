@@ -1,0 +1,597 @@
+{
+  "generator": "Pebble",
+  "version": 5,
+  "settings": {
+    "siteName": "Op weg naar vrijheid",
+    "theme": {
+      "primaryColor": "#b85c38",
+      "secondaryColor": "#6b8b4f",
+      "fontFamily": "lora",
+      "borderRadius": 16,
+      "blockSpacing": 20
+    },
+    "typography": {
+      "styles": {
+        "title": { "name": "Hoofdkop", "font": "", "size": 52, "lineHeight": 1.15, "weight": 700 },
+        "heading": { "name": "Kop", "font": "", "size": 36, "lineHeight": 1.2, "weight": 600 },
+        "subheading": { "name": "Subkop", "font": "", "size": 24, "lineHeight": 1.3, "weight": 600 },
+        "paragraph": { "name": "Alinea", "font": "", "size": 18, "lineHeight": 1.7, "weight": 400 },
+        "small": { "name": "Kleine tekst", "font": "", "size": 14, "lineHeight": 1.5, "weight": 400 }
+      },
+      "customFont": null
+    },
+    "branding": { "logo": "", "logoHeight": 44, "logoMode": "logo-name", "favicon": "" },
+    "hero": { "enabled": false, "src": "", "position": "below", "size": "medium" },
+    "customCss": ""
+  },
+  "blogPage": "blog.html",
+  "pages": [
+    {
+      "id": "p_home",
+      "file": "index.html",
+      "title": "Home",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_home1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_home1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_home1a", "type": "text", "colSpan": 12, "data": { "html": "<p class=\"text-small align-center\">Verhalenvertelder · Sociaal werker · Freelance tekstschrijver</p><h1 class=\"align-center\">Elk verhaal verdient een plek om gehoord te worden.</h1><p class=\"align-center\">Ik schrijf warme, menselijke verhalen, geïnspireerd door ontmoetingen, de natuur, muziek en mijn werk als sociaal werker. En ik help jou om je eigen levensverhaal te schrijven: voor helderheid, voor therapie, voor een rechtszaak of als blijvende herinnering.</p>" } },
+                { "id": "b_home1b", "type": "button", "colSpan": 6, "data": { "label": "Schrijf jouw levensverhaal", "href": "diensten.html", "style": "primary", "align": "right" } },
+                { "id": "b_home1c", "type": "button", "colSpan": 6, "data": { "label": "Lees mijn verhalen", "href": "blog.html", "style": "secondary", "align": "left" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_home2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_home2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_home2a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Hoe ik je help</h2><p class=\"align-center\">Drie manieren waarop woorden iets in beweging kunnen zetten.</p>" } },
+                { "id": "b_home2b", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Samen je levensverhaal schrijven", "html": "<p>In gesprek en stap voor stap zet ik jouw ervaringen om in een samenhangend verhaal. Op jouw tempo, met zorg en respect.</p>", "href": "diensten.html", "linkLabel": "Lees meer", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_home2c", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Freelance schrijfwerk", "html": "<p>Artikelen voor magazines, nieuwsbrieven en zorgorganisaties. Toegankelijk, betrokken en met oog voor de mens achter het onderwerp.</p>", "href": "diensten.html", "linkLabel": "Bekijk het aanbod", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_home2d", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Persoonlijke verhalen", "html": "<p>Over op de vlucht zijn, onderweg zijn en vrij worden. Verhalen om bij stil te staan en jezelf in te herkennen.</p>", "href": "blog.html", "linkLabel": "Lees de verhalen", "bg": "", "textColor": "", "border": "accent" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_home3",
+          "style": { "bgColor": "#f6f1e9", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_home3a",
+              "width": 60,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_home3a", "type": "text", "colSpan": 12, "data": { "html": "<h2>Drie reizen, één weg</h2><p>Mijn persoonlijke verhalen volgen de beweging die veel mensen kennen: eerst vluchten, dan zoeken, dan ruimte vinden. Je kunt ze in volgorde lezen of beginnen waar het jou raakt.</p><ul><li><strong>Op de vlucht:</strong> wanneer alles te veel is en je wilt weg.</li><li><strong>Onderweg:</strong> de zoektocht, de twijfel en kleine stappen vooruit.</li><li><strong>In de vrijheid:</strong> adem, ruimte en thuiskomen bij jezelf.</li></ul>" } },
+                { "id": "b_home3b", "type": "button", "colSpan": 12, "data": { "label": "Ontdek de verhalen", "href": "blog.html", "style": "primary", "align": "left" } }
+              ]
+            },
+            {
+              "id": "c_home3b",
+              "width": 40,
+              "style": { "bgColor": "#ffffff" },
+              "blocks": [
+                { "id": "b_home3c", "type": "text", "colSpan": 12, "data": { "html": "<h3>Nieuw bij elke reis</h3><p>Elke reis heeft zijn eigen pagina, met een korte inleiding en een bijpassend gevoel.</p><p><a href=\"op-de-vlucht.html\">Op de vlucht</a><br><a href=\"onderweg.html\">Onderweg</a><br><a href=\"in-de-vrijheid.html\">In de vrijheid</a></p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_home4",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_home4a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_home4a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Mozaïek</h2><p class=\"align-center\">In 2020 verscheen mijn verhalenbundel <em>Mozaïek</em>: een verzameling verhalen die samen een groter geheel vormen, net zoals mensen dat doen.</p>" } },
+                { "id": "b_home4b", "type": "button", "colSpan": 12, "data": { "label": "Meer over Mozaïek", "href": "mozaiek.html", "style": "accent", "align": "center" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_home5",
+          "style": { "bgColor": "#3f5a3a", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "light", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_home5a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_home5a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Benieuwd wat woorden voor jou kunnen doen?</h2><p class=\"align-center\">Stuur me gerust een berichtje. We kijken vrijblijvend samen wat je nodig hebt.</p>" } },
+                { "id": "b_home5b", "type": "button", "colSpan": 12, "data": { "label": "Neem contact op", "href": "contact.html", "style": "accent", "align": "center" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_over",
+      "file": "over-mij.html",
+      "title": "Over mij",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_over1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_over1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_over1a", "type": "text", "colSpan": 12, "data": { "html": "<h1 class=\"align-center\">Over mij</h1><p class=\"align-center\">Luisteren, verbinden en zoeken naar de woorden die er mogen zijn.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_over2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_over2a",
+              "width": 60,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_over2a", "type": "text", "colSpan": 12, "data": { "html": "<h2>Wie ik ben</h2><p>Ik ben verhalenvertelder, sociaal werker en freelance tekstschrijver. In mijn werk ontmoet ik mensen op kwetsbare, eerlijke momenten. Die ontmoetingen hebben mij geleerd dat achter elk gedrag, elke keuze en elke stilte een verhaal schuilgaat.</p><p>Als sociaal werker luister ik naar wat mensen meemaken. Als schrijver zoek ik naar woorden die recht doen aan die ervaringen, zonder te oordelen en zonder te mooi te maken wat pijn doet.</p>" } }
+              ]
+            },
+            {
+              "id": "c_over2b",
+              "width": 40,
+              "style": { "bgColor": "#f6f1e9" },
+              "blocks": [
+                { "id": "b_over2b", "type": "text", "colSpan": 12, "data": { "html": "<h3>In het kort</h3><ul><li>Sociaal werker</li><li>Verhalenvertelder</li><li>Freelance tekstschrijver</li><li>Auteur van <em>Mozaïek</em> (2020)</li><li>Liefhebber van natuur en muziek</li></ul>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_over3",
+          "style": { "bgColor": "#f6f1e9", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_over3a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_over3a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Waar mijn verhalen vandaan komen</h2>" } },
+                { "id": "b_over3b", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Ontmoetingen", "html": "<p>Een gesprek aan de keukentafel, een blik in het voorbijgaan: gewone momenten waarin iets groots zichtbaar wordt.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_over3c", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Natuur", "html": "<p>Buiten vind ik rust en perspectief. Het weer, de seizoenen en de paden die ik loop keren terug in mijn schrijven.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_over3d", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Muziek", "html": "<p>Muziek geeft woorden aan wat zich moeilijk laat zeggen. Het is ritme, troost en inspiratie in alles wat ik schrijf.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_over4",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_over4a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_over4a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Hoe ik werk</h2><p class=\"align-center\">Ik werk vanuit vertrouwen en in jouw tempo. Jij bepaalt wat er in je verhaal staat en wat niet. Ik help je om het te ordenen, te verwoorden en vorm te geven.</p>" } },
+                { "id": "b_over4b", "type": "button", "colSpan": 6, "data": { "label": "Bekijk mijn diensten", "href": "diensten.html", "style": "primary", "align": "right" } },
+                { "id": "b_over4c", "type": "button", "colSpan": 6, "data": { "label": "Neem contact op", "href": "contact.html", "style": "secondary", "align": "left" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_diensten",
+      "file": "diensten.html",
+      "title": "Diensten",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_dien1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_dien1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_dien1a", "type": "text", "colSpan": 12, "data": { "html": "<h1 class=\"align-center\">Diensten</h1><p class=\"align-center\">Woorden die helderheid brengen, voor jezelf of voor je lezers.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_dien2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_dien2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_dien2a", "type": "text", "colSpan": 12, "data": { "html": "<h2>Samen je levensverhaal schrijven</h2><p>Soms heb je woorden nodig om te begrijpen wat je hebt meegemaakt. Samen schrijven we jouw levensverhaal, op een manier die bij je past. Het schrijven zelf brengt vaak rust en overzicht.</p>" } },
+                { "id": "b_dien2b", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Voor helderheid", "html": "<p>Om je eigen leven te overzien, verbanden te zien en een plek te geven aan wat er gebeurd is.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_dien2c", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Voor therapie of een rechtszaak", "html": "<p>Een samenhangend verhaal kan helpen in een therapeutisch traject of ondersteunend zijn bij een juridische procedure.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_dien2d", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Als blijvend aandenken", "html": "<p>Een persoonlijk boekje of document voor jezelf, je kinderen of de mensen die je dierbaar zijn.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "accent" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_dien3",
+          "style": { "bgColor": "#f6f1e9", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_dien3a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_dien3a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Zo gaan we te werk</h2>" } },
+                { "id": "b_dien3b", "type": "card", "colSpan": 3, "data": { "src": "", "title": "1. Kennismaken", "html": "<p>We praten vrijblijvend over je wens en wat je nodig hebt.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "outline" } },
+                { "id": "b_dien3c", "type": "card", "colSpan": 3, "data": { "src": "", "title": "2. Gesprekken", "html": "<p>Jij vertelt, ik luister en stel vragen. Rustig, in jouw tempo.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "outline" } },
+                { "id": "b_dien3d", "type": "card", "colSpan": 3, "data": { "src": "", "title": "3. Schrijven", "html": "<p>Ik schrijf een eerste versie, in jouw taal en met jouw woorden.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "outline" } },
+                { "id": "b_dien3e", "type": "card", "colSpan": 3, "data": { "src": "", "title": "4. Verfijnen", "html": "<p>Samen slijpen we het verhaal bij, tot het klopt en goed voelt.</p>", "href": "", "linkLabel": "", "bg": "", "textColor": "", "border": "outline" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_dien4",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_dien4a",
+              "width": 60,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_dien4a", "type": "text", "colSpan": 12, "data": { "html": "<h2>Freelance schrijven</h2><p>Naast persoonlijke verhalen schrijf ik in opdracht: artikelen voor magazines, nieuwsbrieven en zorgorganisaties. Mijn achtergrond in de sociale sector helpt me om ook lastige onderwerpen helder, respectvol en menselijk te brengen.</p><ul><li>Artikelen en reportages</li><li>Interviews en portretten</li><li>Teksten voor nieuwsbrieven en websites</li><li>Verhalen over zorg, welzijn en samenleving</li></ul>" } }
+              ]
+            },
+            {
+              "id": "c_dien4b",
+              "width": 40,
+              "style": { "bgColor": "#f6f1e9" },
+              "blocks": [
+                { "id": "b_dien4b", "type": "text", "colSpan": 12, "data": { "html": "<h3>Eerder schreef ik voor</h3><ul><li>Sestra</li><li>VEG magazine</li><li>CAW</li></ul>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_dien5",
+          "style": { "bgColor": "#3f5a3a", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "light", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_dien5a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_dien5a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Laten we kennismaken</h2><p class=\"align-center\">Vertel me wat je op het hart hebt of waar je een tekst voor nodig hebt.</p>" } },
+                { "id": "b_dien5b", "type": "button", "colSpan": 12, "data": { "label": "Stuur een bericht", "href": "contact.html", "style": "accent", "align": "center" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_blog",
+      "file": "blog.html",
+      "title": "Verhalen",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_blog1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_blog1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_blog1a", "type": "text", "colSpan": 12, "data": { "html": "<h1 class=\"align-center\">Verhalen</h1><p class=\"align-center\">Persoonlijke verhalen over ontmoetingen, natuur, muziek en de weg naar vrijheid. Kies een reis, of lees ze allemaal.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_blog2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_blog2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_blog2a", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Op de vlucht", "html": "<p>Verhalen over te veel, te snel en te zwaar. Over wegrennen, overleven en de behoefte aan een veilige plek.</p>", "href": "op-de-vlucht.html", "linkLabel": "Naar Op de vlucht", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_blog2b", "type": "card", "colSpan": 4, "data": { "src": "", "title": "Onderweg", "html": "<p>Verhalen over zoeken, vallen en opstaan. Over kleine stappen, twijfel en de moed om door te gaan.</p>", "href": "onderweg.html", "linkLabel": "Naar Onderweg", "bg": "", "textColor": "", "border": "accent" } },
+                { "id": "b_blog2c", "type": "card", "colSpan": 4, "data": { "src": "", "title": "In de vrijheid", "html": "<p>Verhalen over ruimte, adem en thuiskomen. Over wat er mogelijk wordt als je los durft te laten.</p>", "href": "in-de-vrijheid.html", "linkLabel": "Naar In de vrijheid", "bg": "", "textColor": "", "border": "accent" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_blog3",
+          "style": { "bgColor": "#f6f1e9", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_blog3a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_blog3a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Alle verhalen</h2><p class=\"align-center\">De nieuwste bovenaan.</p>" } },
+                { "id": "b_blog3b", "type": "blog-feed", "colSpan": 12, "data": { "limit": 0 } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_mozaiek",
+      "file": "mozaiek.html",
+      "title": "Mozaïek",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_moz1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_moz1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_moz1a", "type": "text", "colSpan": 12, "data": { "html": "<h1 class=\"align-center\">Mozaïek</h1><p class=\"align-center\">Verhalenbundel · 2020</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_moz2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_moz2a",
+              "width": 60,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_moz2a", "type": "text", "colSpan": 12, "data": { "html": "<h2>Over het boek</h2><p>In 2020 verscheen <em>Mozaïek</em>, mijn verhalenbundel. Net als een mozaïek bestaat het uit kleine stukjes die samen een groter beeld laten zien: ontmoetingen, ervaringen en gevoelens die tot een geheel worden.</p><p>Wil je meer weten of een exemplaar bestellen? Neem dan contact met me op.</p>" } },
+                { "id": "b_moz2b", "type": "button", "colSpan": 12, "data": { "label": "Vraag naar het boek", "href": "contact.html", "style": "primary", "align": "left" } }
+              ]
+            },
+            {
+              "id": "c_moz2b",
+              "width": 40,
+              "style": { "bgColor": "#f6f1e9" },
+              "blocks": [
+                { "id": "b_moz2c", "type": "text", "colSpan": 12, "data": { "html": "<h3>Kerngegevens</h3><ul><li>Titel: Mozaïek</li><li>Genre: verhalenbundel</li><li>Verschenen: 2020</li></ul>" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_contact",
+      "file": "contact.html",
+      "title": "Contact",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_con1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_con1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_con1a", "type": "text", "colSpan": 12, "data": { "html": "<h1 class=\"align-center\">Contact</h1><p class=\"align-center\">Heb je een verhaal dat verteld wil worden, of een schrijfopdracht? Ik hoor het graag.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_con2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_con2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_con2a", "type": "text", "colSpan": 12, "data": { "html": "<h2 class=\"align-center\">Laten we praten</h2><p class=\"align-center\">Een eerste gesprek is vrijblijvend. Vertel kort waar je mee zit of wat je zoekt, dan neem ik snel contact met je op.</p>" } },
+                { "id": "b_con2b", "type": "button", "colSpan": 12, "data": { "label": "Mail me", "href": "mailto:hallo@voorbeeld.nl", "style": "primary", "align": "center" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_vlucht",
+      "file": "op-de-vlucht.html",
+      "title": "Op de vlucht",
+      "showInNavbar": false,
+      "sections": [
+        {
+          "id": "s_vl1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_vl1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_vl1a", "type": "text", "colSpan": 12, "data": { "html": "<p class=\"text-small align-center\">Verhalen · reis 1 van 3</p><h1 class=\"align-center\">Op de vlucht</h1><p class=\"align-center\">Soms is alles te veel en wil je alleen maar weg. Deze verhalen gaan over wegrennen, overleven en verlangen naar een veilige plek.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_vl2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_vl2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_vl2a", "type": "text", "colSpan": 12, "data": { "html": "<blockquote>Wie op de vlucht is, draagt vaak een verhaal dat nog geen woorden heeft.</blockquote>" } },
+                { "id": "b_vl2b", "type": "button", "colSpan": 6, "data": { "label": "Alle verhalen", "href": "blog.html", "style": "primary", "align": "right" } },
+                { "id": "b_vl2c", "type": "button", "colSpan": 6, "data": { "label": "Verder naar Onderweg", "href": "onderweg.html", "style": "secondary", "align": "left" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_onderweg",
+      "file": "onderweg.html",
+      "title": "Onderweg",
+      "showInNavbar": false,
+      "sections": [
+        {
+          "id": "s_ow1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_ow1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_ow1a", "type": "text", "colSpan": 12, "data": { "html": "<p class=\"text-small align-center\">Verhalen · reis 2 van 3</p><h1 class=\"align-center\">Onderweg</h1><p class=\"align-center\">Na het wegrennen volgt het zoeken. Deze verhalen gaan over twijfel, kleine stappen en de moed om door te gaan.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_ow2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_ow2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_ow2a", "type": "text", "colSpan": 12, "data": { "html": "<blockquote>Je hoeft de hele weg nog niet te kennen om de volgende stap te zetten.</blockquote>" } },
+                { "id": "b_ow2b", "type": "button", "colSpan": 6, "data": { "label": "Alle verhalen", "href": "blog.html", "style": "primary", "align": "right" } },
+                { "id": "b_ow2c", "type": "button", "colSpan": 6, "data": { "label": "Verder naar In de vrijheid", "href": "in-de-vrijheid.html", "style": "secondary", "align": "left" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_vrijheid",
+      "file": "in-de-vrijheid.html",
+      "title": "In de vrijheid",
+      "showInNavbar": false,
+      "sections": [
+        {
+          "id": "s_vr1",
+          "style": { "bgColor": "#efe7db", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+          "columns": [
+            {
+              "id": "c_vr1a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_vr1a", "type": "text", "colSpan": 12, "data": { "html": "<p class=\"text-small align-center\">Verhalen · reis 3 van 3</p><h1 class=\"align-center\">In de vrijheid</h1><p class=\"align-center\">Ruimte, adem en thuiskomen. Deze verhalen gaan over wat er mogelijk wordt wanneer je durft los te laten.</p>" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s_vr2",
+          "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "top" },
+          "columns": [
+            {
+              "id": "c_vr2a",
+              "width": 100,
+              "style": { "bgColor": "" },
+              "blocks": [
+                { "id": "b_vr2a", "type": "text", "colSpan": 12, "data": { "html": "<blockquote>Vrijheid begint vaak heel klein: met één diepe adem.</blockquote>" } },
+                { "id": "b_vr2b", "type": "button", "colSpan": 6, "data": { "label": "Alle verhalen", "href": "blog.html", "style": "primary", "align": "right" } },
+                { "id": "b_vr2c", "type": "button", "colSpan": 6, "data": { "label": "Schrijf jouw verhaal", "href": "diensten.html", "style": "secondary", "align": "left" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "posts": [],
+  "header": {
+    "sections": [
+      {
+        "id": "s_head1",
+        "style": { "bgColor": "", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "dark", "valign": "center" },
+        "columns": [
+          {
+            "id": "c_head1a",
+            "width": 40,
+            "style": { "bgColor": "" },
+            "blocks": [
+              { "id": "b_head1a", "type": "site-title", "colSpan": 12, "data": {} }
+            ]
+          },
+          {
+            "id": "c_head1b",
+            "width": 60,
+            "style": { "bgColor": "" },
+            "blocks": [
+              { "id": "b_head1b", "type": "menu", "colSpan": 12, "data": { "align": "right" } }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "sections": [
+      {
+        "id": "s_foot1",
+        "style": { "bgColor": "#3f5a3a", "bgImage": "", "overlayColor": "#000000", "overlayOpacity": 0, "tone": "light", "valign": "top" },
+        "columns": [
+          {
+            "id": "c_foot1a",
+            "width": 50,
+            "style": { "bgColor": "" },
+            "blocks": [
+              { "id": "b_foot1a", "type": "text", "colSpan": 12, "data": { "html": "<h3>Op weg naar vrijheid</h3><p class=\"text-small\">Warme, menselijke verhalen. Samen je levensverhaal schrijven. Freelance tekstwerk.</p>" } }
+            ]
+          },
+          {
+            "id": "c_foot1b",
+            "width": 50,
+            "style": { "bgColor": "" },
+            "blocks": [
+              { "id": "b_foot1b", "type": "text", "colSpan": 12, "data": { "html": "<h3>Snel naar</h3><p class=\"text-small\"><a href=\"over-mij.html\">Over mij</a><br><a href=\"diensten.html\">Diensten</a><br><a href=\"blog.html\">Verhalen</a><br><a href=\"contact.html\">Contact</a></p>" } }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
